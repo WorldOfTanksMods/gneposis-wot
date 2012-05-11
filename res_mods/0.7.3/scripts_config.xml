@@ -1,0 +1,44 @@
+<scripts_config.xml>
+  <login>
+    <host>
+      <name>W.o.T.</name>
+      <url>login-master.worldoftanks.eu:20016</url>
+      <public_key_path>loginapp_wot.pubkey</public_key_path>
+    </host>
+  </login>
+  <updateUrl>http://game.worldoftanks.eu/update</updateUrl>
+  <fakeModel>objects/fake_model.model</fakeModel>
+  <silhouetteColors>
+    <common>
+      <self>0.586 1 0 1</self>
+      <enemy>1 1 1 1</enemy>
+      <friend>0.812 0.996 0.286 1</friend>
+    </common>
+    <colorBlind>
+      <self>0.5 0.5 0.5 1</self>
+      <enemy>1.0 0.070 0.027 1</enemy>
+      <friend>0.488 0.839 0.023 1</friend>
+    </colorBlind>
+  </silhouetteColors>
+  <decal>
+    <groups>
+      <slow>
+        <lifeTime>	100	</lifeTime>
+        <trianglesCount>	10000	</trianglesCount>
+      </slow>
+      <medium>
+        <lifeTime>	50	</lifeTime>
+        <trianglesCount>	5000	</trianglesCount>
+      </medium>
+      <fast>
+        <lifeTime>	25	</lifeTime>
+        <trianglesCount>	2500	</trianglesCount>
+      </fast>
+    </groups>
+    <textures>
+      <explosion>
+        <texture>maps/fx/explosion_decal.dds</texture>
+      </explosion>
+    </textures>
+  </decal>
+</scripts_config.xml>
