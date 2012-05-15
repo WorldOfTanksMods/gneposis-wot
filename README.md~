@@ -38,13 +38,6 @@ TODO
 6. damagepanel takn contour to the botoom centre
 7. crew, modules, fire to the hud
 
-Tools Used
-----------
-libiconv-2.dll : <http://www.sawmill.net/prerelease/libiconv-2.dll>
-sharpdiff (diff.exe): <http://code.google.com/p/sharpdiff/downloads/detail?name=diff.exe&can=2&q=>
-Swifty Compress & Decompress (swfcomp.exe, swfdecomp.exe): <http://www.buraks.com/swifty/swfc11.zip>
-swfmill.exe : <http://swfmill.org/>
-TortoiseSVN (for patch and XVM repo): <http://tortoisesvn.net/downloads.html>
-Copy the above files to C:\Windows or into your $PATH if you want to manipulate content
-
-XVM Full 2.3.rc1 (WoT client 0.7.3) : <http://code.google.com/p/wot-xvm/downloads/detail?name=xvm-full-2.3.rc1.zip&can=2&q=>
+Links
+-----
+http://www.sawmill.net/prerelease/libiconv-2.dll
