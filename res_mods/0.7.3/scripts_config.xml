@@ -10,9 +10,9 @@
   <fakeModel>objects/fake_model.model</fakeModel>
   <silhouetteColors>
     <common>
-      <self>0.586 1 0 1</self>
+      <self>0.812 0.996 0.286 1</self>
       <enemy>1 1 1 1</enemy>
-      <friend>0.812 0.996 0.286 1</friend>
+      <friend>0.586 1 0 1</friend>
     </common>
     <colorBlind>
       <self>0.5 0.5 0.5 1</self>

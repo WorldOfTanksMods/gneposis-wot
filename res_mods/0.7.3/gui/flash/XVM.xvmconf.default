@@ -1334,11 +1334,11 @@
       "teamKiller_dead_blind": "0x097783",         // Team killer - dead – color blind mode
       "teamKiller_blowedup_normal": "0x096A75",    // Team killer - blow-up
       "teamKiller_blowedup_blind": "0x096A75",     // Team killer - blow-up – color blind mode
-      "enemy_alive_normal": "0xFFFFFF",            // Enemy – alive
+      "enemy_alive_normal": "0xF50800",            // Enemy – alive
       "enemy_alive_blind": "0x8379FE",             // Enemy – alive – color blind mode
-      "enemy_dead_normal": "0x888888",             // Enemy - dead
+      "enemy_dead_normal": "0x840500",             // Enemy - dead
       "enemy_dead_blind": "0x47407A",              // Enemy – dead – color blind mode
-      "enemy_blowedup_normal": "0x666666",         // Enemy – blow-up
+      "enemy_blowedup_normal": "0x5A0401",         // Enemy – blow-up
       "enemy_blowedup_blind": "0x3B365F"           // Enemy – blow-up – color blind mode
     },
     // Dynamic color for remaining health
@@ -1352,13 +1352,13 @@
     "hp_ratio": [
       { "value": 20,  "color": "0x000000" },      // Color for health below 20 percent: makes sense for Wittmann
       { "value": 50,  "color": "0x96FF00" },      // Color for health below 50 percent
-      { "value": 101, "color": "0xFFFFFF" }       // Color for health up to 100 percent
+      { "value": 101, "color": "0xF50800" }       // Color for health up to 100 percent
     ],
     // Dynamic color for effectiveness (only with XWM-full)
     "eff": [
       { "value": 1000,  "color": "0x000000" },
       { "value": 1500,  "color": "0x96FF00" },
-      { "value": 9999,  "color": "0xFFFFFF" }
+      { "value": 9999,  "color": "0xF50800" }
     ],
     // Dynamic color for victory percentage (only with XWM-full)
     "rating": [
@@ -1374,7 +1374,7 @@
     "kb": [
       { "value": 5,    "color": "0x000000" },
       { "value": 50,   "color": "0x96FF00" },
-      { "value": 9998, "color": "0xFFFFFF" }
+      { "value": 9998, "color": "0xF50800" }
     ]
   },
   // OPTIONS FOR DYNAMIC TRANSPARENCY
