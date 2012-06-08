@@ -22,7 +22,7 @@ Word of Tanks HUD mod I develop for myself, but I guess it has some nice feature
    5. below the HP bar to the left is the efficiency rating of the player colored by <= 1000/1500/infinity
    6. to the right is the amount of battles whit that particular vehicle colored by <= 100/500/infinity
    7. below everything is the vehicle icon (white for enemies)
-8. If you want to know how many battles a player has you can check it using TAB or during the battle loading, since those contain the data of efficiency/total battles
+8. If you want to know how many battles a player has you can check it using TAB or during the battle loading, since those contain the data of efficiency/total battles (colored by <= 5000/25000/infinity)
 9. XVM provides a winning chance calculator (TAB), which is enabled by default
 
 Well, I hope I make you interested! :)
@@ -93,11 +93,16 @@ TODO
 Tools Used
 ----------
 libiconv-2.dll : <http://www.sawmill.net/prerelease/libiconv-2.dll>
+
 sharpdiff (diff.exe): <http://code.google.com/p/sharpdiff/downloads/detail?name=diff.exe&can=2&q=>
+
 Swifty Compress & Decompress (swfcomp.exe, swfdecomp.exe): <http://www.buraks.com/swifty/swfc11.zip>
+
 swfmill.exe : <http://swfmill.org/>
+
 TortoiseDiff (for patch and XVM repo): <http://sourceforge.net/projects/tortoisesvn/files/Tools/1.6.7/>
-Copy the above files to C:\Windows or into your $PATH if you want to manipulate swf content
+
+Copy the above files to C:\Windows or into your $PATH if you want to manipulate swf content.
 
 License
 -------

@@ -1405,7 +1405,7 @@
     // Dynamic color for the number of thousands of battles ("kilo-battles") (only with XWM-full)
     "kb": [
       { "value": 5,    "color": "0x000000" },
-      { "value": 50,   "color": "0x96FF00" },
+      { "value": 25,   "color": "0x96FF00" },
       { "value": 9998, "color": "0xFFFFFF" }
     ],
     // Dynamic color for the number of battles for current tank (only with XWM-full)
@@ -1626,6 +1626,7 @@
         { "clan": "[EFE]", "icon": "efe.png" },
         { "clan": "[EPA]", "icon": "epa.png" },
         { "clan": "[EPIC]", "icon": "epic.png" },
+        { "clan": "[EPICS]", "icon": "epics.png" },
         { "clan": "[EUC-1]", "icon": "euc-1.png" },
         { "clan": "[FAFE]", "icon": "fafe.png" },
         { "clan": "[FAIL]", "icon": "fail.png" },
