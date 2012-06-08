@@ -1,0 +1,1 @@
+convert %1 +gravity -crop 24x24 tile_%%03d.png

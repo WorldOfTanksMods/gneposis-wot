@@ -55,7 +55,7 @@
     "showChances": true,      // true - Enable display of "chance to win" (only with XVM-full).
     "removeSquadIcon": false, // true - Disable Platoon icons. This blank space can house, for example, clan logos.
     // Display options for Team/Clan logos (see battleLoading above)
-    "clanIcon": { "show": false, "x": 0, "y": 6, "xr": 0, "yr": 6, "h": 16, "w": 16, "alpha": 90 },
+    "clanIcon": { "show": true, "x": 0, "y": 6, "xr": 0, "yr": 6, "h": 16, "w": 16, "alpha": 90 },
     // Display format for the left column (macros allowed, see readme-en.txt)
     "formatLeft": "<font color='{{c:eff}}'>{{eff}}</font> / <font color='{{c:kb}}'>{{battles}}</font>",
     // Display format for the right column (macros allowed, see readme-en.txt)
@@ -1412,7 +1412,7 @@
     "t_battles": [
       { "value": 100,  "color": "0x000000" },
       { "value": 500,  "color": "0x96FF00" },
-      { "value": 999999, "color": "0xFFFFFF" }
+      { "value": 1000, "color": "0xFFFFFF" }
     ]
   },
   // OPTIONS FOR DYNAMIC TRANSPARENCY

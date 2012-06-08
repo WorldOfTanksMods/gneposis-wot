@@ -1,0 +1,12 @@
+// This is a jEdit macro to replace pure clan tags to xvm compatible references
+// I normally use a 'dir > list.txt' to get the list of the proper named png files
+// After that I trim that file to clan tags only (one tag for a line)
+// On that I can use this macro
+SearchAndReplace.setSearchString("^(.+?)$");
+SearchAndReplace.setReplaceString("\"        { \\\"clan\\\": \\\"[\"+_1.toUpperCase()+\"]\\\", \\\"icon\\\": \\\"\"+_1+\".png\\\" },\"");
+SearchAndReplace.setBeanShellReplace(true);
+SearchAndReplace.setWholeWord(false);
+SearchAndReplace.setIgnoreCase(false);
+SearchAndReplace.setRegexp(true);
+SearchAndReplace.setSearchFileSet(new CurrentBufferSet());
+SearchAndReplace.replaceAll(view);
