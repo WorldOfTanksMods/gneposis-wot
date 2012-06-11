@@ -67,7 +67,7 @@
     "iconAlpha": 100,  // Opacity percentage of icons in the panels. (0 – transparent ... 100 – opaque)
     "removeSquadIcon": false, // true - Disable Platoon icons.
     // Display options for Team/Clan logos (see battleLoading above).
-    "clanIcon": { "show": true, "x": 0, "y": 6, "xr": 0, "yr": 6, "h": 16, "w": 16, "alpha": 90 },
+    "clanIcon": { "show": false, "x": 0, "y": 6, "xr": 0, "yr": 6, "h": 16, "w": 16, "alpha": 90 },
     // Options for the "medium" panels - the first of the medium panels
     "medium": {
       "width": 46,    // 0..250 - Width of the player's name column. Default is 46.
@@ -1668,6 +1668,8 @@
         { "clan": "[JNA]", "icon": "jna.png" },
         { "clan": "[JOD]", "icon": "jod.png" },
         { "clan": "[K-_-K]", "icon": "k-_-k.png" },
+        { "clan": "[KIA2]", "icon": "kia2.png" },
+        { "clan": "[KIA]", "icon": "kia.png" },
         { "clan": "[KKC]", "icon": "kkc.png" },
         { "clan": "[KRAYZ]", "icon": "krayz.png" },
         { "clan": "[LAS]", "icon": "las.png" },
