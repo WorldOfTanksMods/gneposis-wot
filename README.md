@@ -32,7 +32,7 @@ You can find some screenshots in the mod folder. Just click on 'Raw' to get to 1
 INSTALLATION
 ------------
 1. Download wot-xvm: <http://code.google.com/p/wot-xvm/downloads/detail?name=xvm-full-2.3.2.test3.zip&can=2&q=>
-2. Copy the content of the zip file to the World of Tanks directory
+2. Install wot-xvm (Follow instructions)
 3. Click to 'Downloads' above
 4. Click to 'Download as zip'
 5. Copy the mod/res_mods folder to the World of Tanks directory, overwrite all files if asked
