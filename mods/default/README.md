@@ -14,8 +14,8 @@ Check the screenshots!
 
 INSTALLATION
 ------------
-1. Follow installation instructions of <https://github.com/gneposis/gneposis-wot/tree/master/>
-2. Follow installation instructions of <https://github.com/gneposis/gneposis-wot/tree/master/mods/_all/>
+1. Follow installation instructions of <https://github.com/gneposis/gneposis-wot/tree/master>
+2. Follow installation instructions of <https://github.com/gneposis/gneposis-wot/tree/master/mods/_all>
 3. Copy the 'res_mods' folder to the World of Tanks folder. Overwrite all files, but don't forget to make a backup.
 
 Contents
