@@ -4,18 +4,18 @@ default visualization profile v1.0 for gneposis-wot
 ABOUT
 -----
 
-Based on the default xvm settings, but there are some other nice features aswell:
+Based on the default xvm settings, but there is an extra nice feature:
 
-1. 24x24 size clan icons are part of the clan icons
-    * all province owner clans' icons are included
+1. 24x24 size clan icons:
+    * all province owner clans are included (current state: maintenance of 2012-06-12)
     * WG and RED-R are also included with wildcard
 
 Check the screenshots!
 
 INSTALLATION
 ------------
-1. Follow installation instructions of <https://github.com/gneposis/gneposis-wot/raw/master/README.md>
-2. Follow installation instructions of <https://github.com/gneposis/gneposis-wot/raw/master/mods/_all/README.md>
+1. Follow installation instructions of <https://github.com/gneposis/gneposis-wot/tree/master/>
+2. Follow installation instructions of <https://github.com/gneposis/gneposis-wot/tree/master/mods/_all/>
 3. Copy the 'res_mods' folder to the World of Tanks folder. Overwrite all files, but don't forget to make a backup.
 
 Contents
