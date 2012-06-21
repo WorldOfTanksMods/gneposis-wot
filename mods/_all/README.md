@@ -19,9 +19,9 @@ INSTALLATION
 
 Contains
 --------
-(version)/spaces/* : Locastan's HD Minimap
-(version)/gui/avatar_input_handler.xml : Maximum Zoom Out
-clanicons/* : Clan Icons
+    res_mods/(version)/spaces/* : Locastan's HD Minimap
+    res_mods/(version)/gui/avatar_input_handler.xml : Maximum Zoom Out
+    res_mods/clanicons/* : Clan Icons
 
 License
 -------

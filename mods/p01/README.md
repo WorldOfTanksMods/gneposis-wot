@@ -42,13 +42,13 @@ INSTALLATION
 
 Contents
 --------
-_all/res_mods/(version)/gui/flash/DamageIndicator.swf : Damage Indicator Pins with timer v0.1
-_all/res_mods/(version)/gui/flash/Minimap.swf : Green/White Colored Minimap v1.0
-_all/res_mods/(version)/gui/flash/VehicleMarkersManager.swf : Green/White Colored Vehicle Marker Icon v1.0
-_all/res_mods/(version)/gui/flash/XVM.xvmconf : wot-xvm configuration file
-_all/res_mods/(version)/gui/maps/ingame/aim/gun_marker_blue.dds : Server side crosshair graphic
-_all/res_mods/(version)/scripts/client/Avatar.pyc : Permanent Server Side Crosshair Enabler for 0.7.3
-(region)/res_mods/(version)/scripts_config.xml : Green/White Colored Tank Silhouette v1.0
+    _all/res_mods/(version)/gui/flash/DamageIndicator.swf : Damage Indicator Pins with timer v0.1
+    _all/res_mods/(version)/gui/flash/Minimap.swf : Green/White Colored Minimap v1.0
+    _all/res_mods/(version)/gui/flash/VehicleMarkersManager.swf : Green/White Colored Vehicle Marker Icon v1.0
+    _all/res_mods/(version)/gui/flash/XVM.xvmconf : wot-xvm configuration file
+    _all/res_mods/(version)/gui/maps/ingame/aim/gun_marker_blue.dds : Server side crosshair graphic
+    _all/res_mods/(version)/scripts/client/Avatar.pyc : Permanent Server Side Crosshair Enabler for 0.7.3
+    (region)/res_mods/(version)/scripts_config.xml : Green/White Colored Tank Silhouette v1.0
  
 To Do
 -----

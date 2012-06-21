@@ -20,7 +20,7 @@ INSTALLATION
 
 Contents
 --------
-(version)/gui/flash/XVM.xvmconf : wot-xvm configuration file
+    res_mods/(version)/gui/flash/XVM.xvmconf : wot-xvm configuration file
 
 Tools Used
 ----------
