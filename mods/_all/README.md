@@ -1,22 +1,27 @@
-gneposis-wot v0.1
-=================
+common files for all visualization profiles v1.0 for gneposis-wot
+=================================================================
 
 ABOUT
 -----
 
-This is a Visualization Tool and Collection for the free MMO game World of Tanks.
+Some must-have mods:
 
-You can browse the screenshots in the 'mods/(modpackname)' folder. 
+1. Locastan's HD Minimap
+2. Maximum Zoom Out
+3. Clan Icons
+
+Check the screenshots!
 
 INSTALLATION
 ------------
-1. Download wot-xvm from <http://code.google.com/p/wot-xvm/> for your game version. Use Lite versio if you don't care about player ratings and win chances. If you do, then download the full version.
-2. Follow installation instructions of '(downloaded.zip)/xvm-doc/xvm-doc\readme-en.txt'
-3. Choose a visualization pack in 'mods' folder and follow it's installation instructions.
+1. Follow installation instruction of <https://github.com/gneposis/gneposis-wot/raw/master/README.md>
+2. Copy the 'res_mods' folder to the World of Tanks folder. Overwrite all files, but don't forget to make a backup.
 
-To Do
------
-1. Installer script and customization
+Contains
+--------
+(version)/spaces/* : Locastan's HD Minimap
+(version)/gui/avatar_input_handler.xml : Maximum Zoom Out
+clanicons/* : Clan Icons
 
 License
 -------
