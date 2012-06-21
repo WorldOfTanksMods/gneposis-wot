@@ -23,9 +23,25 @@ INSTALLATION
 2. Follow installation instructions of '(downloaded.zip)/xvm-doc/xvm-doc\readme-en.txt'
 3. Choose a visualization pack in 'mods' folder and follow it's installation instructions.
 
-To Do
------
-1. Installer script and customization
+Hex To Do
+---------
+0. Installer script and settings
+1. Easy loading and refreshing of mods (I. using downloads; II. using repositories if possible)
+2. Ultimate Conquest tracking (more than one pillars needed: I. trying to get from the official site II. using <http://wot-stats.appspot.com>'s RSS, III. trying to negotiate with wotconquest.com guys, IV. parsing replays IV. import from all sources should be identical if nothing went wrong)
+3. Clan tracking (same as with Ultimate Conquest tracking)
+4. dossier_cache tracking (another pillar)
+5. cloud (for sharing the known stats)
+6. graphichal window with flags like cw, away
+7. getting experience bonus value; ability to calculate exp_corr
+8. getting roster with the use of wot-xvm
+9. getting team_level (even for tanks)
+A. resource sharing and statistics on clan's private website or FTP server
+B. global sharing site (with no permissions, with replays if possible)
+C. getting a good security programmer for making able to host clan battles and stats aswell (with advanced permissions system and diplomatic feature)
+D. getting modules and crew and settings for all tanks                                 
+E. getting victim names with use of wot-xvm                             
+F. head-to-head head-to-clan head-to-squad squad-to-squad
+
 
 License
 -------
