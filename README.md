@@ -1,5 +1,5 @@
-gneposis-wot v0.1
-=================
+gneposis-wot v0.1.01
+====================
 
 ABOUT
 -----
@@ -21,6 +21,8 @@ INSTALLATION
 1. Download wot-xvm from <http://code.google.com/p/wot-xvm/> for your game version. Use Lite versio if you don't care about player ratings and win chances. If you do, then download the full version.
 2. Follow installation instructions of '(downloaded.zip)/xvm-doc/xvm-doc\readme-en.txt'
 3. Choose a visualization pack in 'mods' folder and follow it's installation instructions.
+
+4. Only default pack is 0.7.4 compatible at the moment.
 
 Hex To Do
 ---------
