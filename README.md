@@ -7,7 +7,7 @@ This is a Visualization Tool and Collection for the free MMO game World of Tanks
 
 In the pack there are and will be some of my made mods and stuff. Current one is called GNEPOSIS 24x24 CLANICONS and it contains all the 24x24 size clan logo which clan is on global map during the current CW maintenance. There are two wildcard clans included: WG and RED-R. You can put these icons to the vehicle marker with my mod.
 
-Check: <https://github.com/gneposis/gneposis-wot/raw/master/mods/_default/shot1.jpg>
+Check: <https://github.com/gneposis/gneposis-wot/raw/master/mods/gneposis_24x24_clanicons/shot1.jpg>
 
 The whole package contains the following mods (all of them are 0.7.4 compatible):
 

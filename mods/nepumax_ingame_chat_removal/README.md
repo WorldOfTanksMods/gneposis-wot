@@ -30,13 +30,13 @@ You have to do it by yourself.
 4. Start wottools.exe and then open messenger.xml.
 5. Scroll up and look for these lines:
 
-    </lobby>
-    <battle>
-          <lifeTime>      10      </lifeTime>
-          <alphaSpeed>    3       </alphaSpeed>
-          <inactiveStateAlpha>    35      </inactiveStateAlpha>
-          <colorScheme>
-          <player>
+    41 </lobby>
+    42 <battle>
+    43       <lifeTime>      10      </lifeTime>
+    44       <alphaSpeed>    3       </alphaSpeed>
+    45       <inactiveStateAlpha>    35      </inactiveStateAlpha>
+    46       <colorScheme>
+    47       <player>
 
 6. Change 10 to 0.01 and 3 to 0.01.
 7. Save it and check it ingame. Done.

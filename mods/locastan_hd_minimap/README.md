@@ -8,7 +8,7 @@ Copy of Locastan's HD Minimap Pack.
 
 This mod replaces the standard map with a high definition one.
 
-Check right side picture (with PETTINGSON MINIMAP ICONS): <https://github.com/gneposis/gneposis-wot/raw/master/mods/locastans-hd-minimap/shot1.jpg>
+Check right side picture (with PETTINGSON MINIMAP ICONS): <https://github.com/gneposis/gneposis-wot/raw/master/mods/locastan_hd_minimap/shot1.jpg>
 
 INSTALLATION
 ------------

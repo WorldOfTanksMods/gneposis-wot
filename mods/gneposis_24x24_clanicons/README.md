@@ -10,7 +10,7 @@ v2012.06.12.eu, selection method:
     * all province owner clans are included (current state: maintenance of 2012-06-12)
     * WG and RED-R are also included with wildcard
 
-Check the screenshot: <https://github.com/gneposis/gneposis-wot/raw/master/mods/_default/shot1.jpg>
+Check the screenshot: https://github.com/gneposis/gneposis-wot/raw/master/mods/gneposis_24x24_clanicons/shot1.jpg
 
 For the complete list of clans: <https://github.com/gneposis/gneposis-wot/raw/master/src/clanlists/uc/maintenance_2012-06-12.txt>
 And wildcarders:  <https://github.com/gneposis/gneposis-wot/raw/master/src/clanlists/wildcard.txt>

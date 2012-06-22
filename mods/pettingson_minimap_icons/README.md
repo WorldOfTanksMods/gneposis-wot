@@ -8,7 +8,7 @@ Copy of Pettingson's Minimap Icons mod.
 
 This mod bumpeds up the icons size by about 33% for 7.4.
 
-Check right side picture (with LOCASTAN HD MINIMAP):  <https://github.com/gneposis/gneposis-wot/raw/master/mods/locastans-hd-minimap/shot1.jpg>
+Check right side picture (with LOCASTAN HD MINIMAP):  <<https://github.com/gneposis/gneposis-wot/raw/master/mods/locastan_hd_minimap/shot1.jpg>>
 
 INSTALLATION
 ------------
