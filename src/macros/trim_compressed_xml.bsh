@@ -1,0 +1,9 @@
+SearchAndReplace.setSearchString(">(?!\\n)[\\s]*(.+?)[\\s]*<");
+SearchAndReplace.setReplaceString("\">\"+_1+\"<\"");
+SearchAndReplace.setBeanShellReplace(true);
+SearchAndReplace.setWholeWord(false);
+SearchAndReplace.setIgnoreCase(false);
+SearchAndReplace.setRegexp(true);
+SearchAndReplace.setSearchFileSet(new CurrentBufferSet());
+SearchAndReplace.replaceAll(view);
+buffer.save(view,null,true);

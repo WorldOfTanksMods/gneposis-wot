@@ -14,7 +14,7 @@
     "description": "Default settings for XVM",  // Config description
     "url": "http://code.google.com/p/wot-xvm/", // Address to config updates
     "date": "21.05.2012",                       // Config last modified
-    "gameVersion": "0.7.3",                     // Supported version of the game
+    "gameVersion": "0.7.4",                     // Supported version of the game
     "modMinVersion": "2.3"                      // The minimum required version of the XVM mod
   },
   // General parameters for the battle interface
@@ -106,6 +106,7 @@
         "normal": {
           "vehicleIcon": {                    // "Type of vehicle" icon (HT / MT / LT / TD / Arty)
             "visible": true,                  //   false - Disable
+            "showSpeaker": false,             //   true - Show speaker even if visible=false
             "x": 0,                           //   Position on the X axis
             "y": -16,                         //   Position on the Y axis
             "alpha": 100,                     //   Opacity
@@ -252,6 +253,7 @@
         "extended": {
           "vehicleIcon": {                    // "Type of vehicle" icon (HT / MT / LT / TD / Arty)
             "visible": true,                  //   false - Disable
+            "showSpeaker": false,             //   true - Show speaker even if visible=false
             "x": 0,                           //   Position on the X axis
             "y": -16,                         //   Position on the Y axis
             "alpha": 100,                     //   Opacity
@@ -426,6 +428,7 @@
         "normal": {
           "vehicleIcon": {                    // "Type of vehicle" icon (HT / MT / LT / TD / Arty)
             "visible": true,                  //   false - Disable
+            "showSpeaker": false,             //   true - Show speaker even if visible=false
             "x": 0,                           //   Position on the X axis
             "y": -16,                         //   Position on the Y axis
             "alpha": 100,                     //   Opacity
@@ -525,6 +528,7 @@
         "extended": {
           "vehicleIcon": {                    // "Type of vehicle" icon (HT / MT / LT / TD / Arty)
             "visible": true,                  //   false - Disable
+            "showSpeaker": false,             //   true - Show speaker even if visible=false
             "x": 0,                           //   Position on the X axis
             "y": -16,                         //   Position on the Y axis
             "alpha": 100,                     //   Opacity
@@ -677,6 +681,7 @@
         "normal": {
           "vehicleIcon": {                    // "Type of vehicle" icon (HT / MT / LT / TD / Arty)
             "visible": true,                  //   false - Disable
+            "showSpeaker": false,             //   true - Show speaker even if visible=false
             "x": 0,                           //   Position on the X axis
             "y": -16,                         //   Position on the Y axis
             "alpha": 100,                     //   Opacity
@@ -823,6 +828,7 @@
         "extended": {
           "vehicleIcon": {                    // "Type of vehicle" icon (HT / MT / LT / TD / Arty)
             "visible": true,                  //   false - Disable
+            "showSpeaker": false,             //   true - Show speaker even if visible=false
             "x": 0,                           //   Position on the X axis
             "y": -16,                         //   Position on the Y axis
             "alpha": 100,                     //   Opacity
@@ -997,6 +1003,7 @@
         "normal": {
           "vehicleIcon": {                    // "Type of vehicle" icon (HT / MT / LT / TD / Arty)
             "visible": true,                  //   false - Disable
+            "showSpeaker": false,             //   true - Show speaker even if visible=false
             "x": 0,                           //   Position on the X axis
             "y": -16,                         //   Position on the Y axis
             "alpha": 100,                     //   Opacity
@@ -1096,6 +1103,7 @@
         "extended": {
           "vehicleIcon": {                    // "Type of vehicle" icon (HT / MT / LT / TD / Arty)
             "visible": true,                  //   false - Disable
+            "showSpeaker": false,             //   true - Show speaker even if visible=false
             "x": 0,                           //   Position on the X axis
             "y": -16,                         //   Position on the Y axis
             "alpha": 100,                     //   Opacity
@@ -1311,6 +1319,15 @@
       { "value": 8,   "color": "0x99FF33" },
       { "value": 12,  "color": "0x33FF33" },
       { "value": 999, "color": "0xCC66CC" }
+    ],
+    // Dynamic color for the number of battles for current tank (only with XWM-full)
+    "t_battles": [
+      { "value": 100,  "color": "0xDD0000" },
+      { "value": 200,  "color": "0xDD3333" },
+      { "value": 300,  "color": "0xFFCC33" },
+      { "value": 500,  "color": "0x99FF33" },
+      { "value": 800,  "color": "0x33FF33" },
+      { "value": 9999, "color": "0xCC66CC" }
     ]
   },
   // OPTIONS FOR DYNAMIC TRANSPARENCY
@@ -1378,7 +1395,7 @@
         { "clan": "[HIVE]",     "icon": "bees.png"},
         { "clan": "[LAIR]",     "icon": "bees.png"},
         { "clan": "[CAIM]",     "icon": "caim.png"},
-        { "clan": "[CAIM2]",    "icon": "caim.png"},
+        { "clan": "[CA1M]",     "icon": "caim.png"},
         { "clan": "[DEFS]",     "icon": "defs.png"},
         { "clan": "[DEFS2]",    "icon": "defs2.png"},
         { "clan": "[ENOT]",     "icon": "enot.png" },
@@ -1387,14 +1404,16 @@
         { "clan": "[_GOW_]",    "icon": "gow.png" },
         { "clan": "[G_0_W]",    "icon": "gow.png" },
         { "clan": "[G-O-W]",    "icon": "gow.png" },
+        { "clan": "[GOW-S]",    "icon": "gow.png" },
         { "clan": "[GREEN]",    "icon": "green.png" },
         { "clan": "[GREEH]",    "icon": "green.png" },
         { "clan": "[GRN-R]",    "icon": "GRN-R.png" },
-        { "clan": "[H4RD",      "icon": "h4rd.png" },
         { "clan": "[IR0NT]",    "icon": "iron.png" },
-        { "clan": "[KO3AK",     "icon": "kozak.png" },
-        { "clan": "[OLENI",     "icon": "oleni.png" },
-        { "clan": "[0_0",       "icon": "oo.png" },
+        { "clan": "[KO3AK]",    "icon": "kozak.png" },
+        { "clan": "[KQ3AK]",    "icon": "kozak.png" },
+        { "clan": "[OLENI]",    "icon": "oleni.png" },
+        { "clan": "[0_0]",      "icon": "oo.png" },
+        { "clan": "[0-0]",      "icon": "oo.png" },
         { "clan": "[PZE]",      "icon": "pze.png" },
         { "clan": "[PZE-N]",    "icon": "pze.png" },
         { "clan": "[PZE-O]",    "icon": "pze.png" },
@@ -1410,6 +1429,7 @@
         { "clan": "[SB-E]",     "icon": "SB-E.png" },
         { "clan": "[SB-H]",     "icon": "SB-H.png" },
         { "clan": "[SB_K]",     "icon": "SB_K.png" },
+        { "clan": "[STAL]",     "icon": "stal.png" },
         { "clan": "[STAL1]",    "icon": "stal.png" },
         { "clan": "[STAL2]",    "icon": "stal.png" },
         { "clan": "[STAL3]",    "icon": "stal.png" },
@@ -1432,18 +1452,20 @@
         { "clan": "[AMIG0]",    "icon": "amigo.png" },
         { "clan": "[B-SKY]",    "icon": "bsky.png" },
         { "clan": "[_E_]",      "icon": "e.png" },
-        { "clan": "[CWOT",      "icon": "cwot.png" },
+        { "clan": "[CWOT",     	"icon": "cwot.png" },
         { "clan": "[BTR]",      "icon": "btr.png" },
-        { "clan": "[BTR2]",     "icon": "btr.png" },
+        { "clan": "[BTR1]",     "icon": "btr.png" },
+        { "clan": "[BTR2]",     "icon": "BTR2.png" },
+        { "clan": "[BTR3]",     "icon": "BTR2.png" },
         { "clan": "[CHESS]",    "icon": "chess.png" },
         { "clan": "[4S-B]",     "icon": "4S-B.png" },
         { "clan": "[URFO]",     "icon": "urfo.png" },
         { "clan": "[URF0]",     "icon": "urfo.png" },
+        { "clan": "[CYC]",     	"icon": "CYC.png" },
         { "clan": "[W_R]",      "icon": "wr.png" },
-        { "clan": "[PIKET]",    "icon": "PIKET.png" },
         { "clan": "[-KNI-]",    "icon": "kni.png" },
         { "clan": "[GUEST]",    "icon": "guest.png" },
-        { "clan": "[_CT_]",     "icon": "st.png" },
+        { "clan": "[_W-G_]",    "icon": "w-g.png" },
         { "clan": "[C0BRA]",    "icon": "cobra.png" },
         { "clan": "[COBRA]",    "icon": "cobra.png" },
         { "clan": "[GRXOA]",    "icon": "xover.png" },
@@ -1453,6 +1475,10 @@
         { "clan": "[--S--]",    "icon": "s.png" },
         { "clan": "[TGD]",      "icon": "tgd.png" },
         { "clan": "[LA]",       "icon": "la.png" },
+        { "clan": "[LA-TM]",    "icon": "la.png" },
+        { "clan": "[LA-GG]",    "icon": "la.png" },
+        { "clan": "[LA-SD]",    "icon": "la.png" },
+        { "clan": "[LA-S]",     "icon": "la.png" },
         { "clan": "[RED]",      "icon": "RED.png" },
         { "clan": "[RED-E]",    "icon": "RED.png" },
         { "clan": "[RED-N]",    "icon": "RED.png" },
@@ -1460,7 +1486,6 @@
         { "clan": "[RED-W]",    "icon": "RED.png" },
         { "clan": "[RED-Z]",    "icon": "RED.png" },
         { "clan": "[RED-A]",    "icon": "RED.png" },
-        { "clan": "[RED-L]",    "icon": "RED.png" },
         { "clan": "[RED-Y]",    "icon": "RED.png" },
         { "clan": "[RED-K]",    "icon": "redk.png" },
         { "clan": "[RED_W]",    "icon": "red-b.png" },
@@ -1472,9 +1497,12 @@
         { "clan": "[RED-0]",    "icon": "red-b.png" },
         { "clan": "[RED-U]",    "icon": "RED.png" },
         { "clan": "[REDMG]",    "icon": "RED.png" },
+        { "clan": "[REDPZ]",    "icon": "RED.png" },
         { "clan": "[RED_M]",    "icon": "red-b.png" },
         { "clan": "[RED-B]",    "icon": "red-b.png" },
         { "clan": "[RED-Q]",    "icon": "red-b.png" },
+        { "clan": "[RED-X]",    "icon": "red.png" },
+        { "clan": "[REDZA]",    "icon": "redza.png" },
         { "clan": "[TIRED]",    "icon": "tired.png" },
         { "clan": "[YKT]",      "icon": "ykt.png" },
         { "clan": "[NOMAD]",    "icon": "nomad.png" },
@@ -1485,23 +1513,34 @@
         { "clan": "[-TAU-]",    "icon": "tau.png" },
         { "clan": "[_WVW_]",    "icon": "WVW.png" },
         { "clan": "[K-69]",     "icon": "k69.png" },
-        { "clan": "[VND]",      "icon": "VND.png" },
-        { "clan": "[_GS_]",     "icon": "GS.png" },
-        { "clan": "[SHDS]",     "icon": "sh.png" },
-        { "clan": "[RGR]",      "icon": "RGR.png" },
+        { "clan": "[VND]",    	"icon": "VND.png" },
+        { "clan": "[_GS_]",    	"icon": "GS.png" },
+        { "clan": "[SHDS]",    	"icon": "sh.png" },
+        { "clan": "[RGR]",    	"icon": "RGR.png" },
         { "clan": "[RGR-2]",    "icon": "RGR.png" },
         { "clan": "[MAMTH]",    "icon": "mmth.png" },
-        { "clan": "[YOKO]",     "icon": "yoko.png" },
-        { "clan": "[YOK0]",     "icon": "yoko.png" },
-        { "clan": "[SITH]",     "icon": "SITH.png" },
-        { "clan": "[TG74]",     "icon": "tg74.png" },
-        { "clan": "[LOL]",      "icon": "lol.png" },
-        { "clan": "[AWA]",      "icon": "awa.png" },
-        { "clan": "[NOD]",      "icon": "nod.png" },
+        { "clan": "[YOKO]",    	"icon": "yoko.png" },
+        { "clan": "[YOK0]",    	"icon": "yoko.png" },
+        { "clan": "[SITH]",    	"icon": "SITH.png" },
+        { "clan": "[TG74]",    	"icon": "tg74.png" },
+        { "clan": "[LOL]",    	"icon": "lol.png" },
+        { "clan": "[AWA]",    	"icon": "awa.png" },
+        { "clan": "[NOD]",    	"icon": "nod.png" },
         { "clan": "[MCDAC]",    "icon": "MCDAC.png" },
         { "clan": "[BEDA_]",    "icon": "beda.png" },
         { "clan": "[DIXIE]",    "icon": "dixie.png" },
-        { "clan": "[LADY]",     "icon": "lady.png" }
+        { "clan": "[_STG_]",    "icon": "stg.png" },
+        { "clan": "[ONE-T]",    "icon": "onet.png" },
+        { "clan": "[-G-]",    	"icon": "mas.png" },
+        { "clan": "[GLW]",    	"icon": "glw.png" },
+        { "clan": "[H2O]",    	"icon": "h2o.png" },
+        { "clan": "[TP]",    	"icon": "tp.png" },
+        { "clan": "[XOMKA]",    "icon": "xom.png" },
+        { "clan": "[P0WER]",    "icon": "power.png" },
+        { "clan": "[DRT]",    	"icon": "drt.png" },
+        { "clan": "[SARB]",    	"icon": "sarb.png" },
+        { "clan": "[NAIM]",    	"icon": "naim.png" },
+        { "clan": "[LADY]",    	"icon": "lady.png" }
       ]
     },
     { "folder": "EU", "players": [
@@ -1645,6 +1684,148 @@
     },
     { "folder": "NA", "players": [
         { "nick": "sirmax",     "icon": "XVM.png" },
+        { "nick": "WooSai",     "icon": "XVM.png" },
+        { "nick": "Millbarge",  "icon": "Millbarge.png" },
+        { "clan": "[SSGS]",     "icon": "SSGS.png" },
+        { "clan": "[SSGS2]",    "icon": "SSGS.png" },
+        { "clan": "[SSGS3]",    "icon": "SSGS.png" },
+        { "clan": "[BT]",       "icon": "BT.png" },
+        { "clan": "[PBKAC]",    "icon": "PBKAC.png" },
+        { "clan": "[RDDT]",     "icon": "RDDT.png" },
+        { "clan": "[RDDT3]",    "icon": "RDDT.png" },
+        { "clan": "[RDDT4]",    "icon": "RDDT.png" },
+        { "clan": "[RDDT5]",    "icon": "RDDT.png" },
+        { "clan": "[PANZA]",    "icon": "PANZA.png" },
+        { "clan": "[PANZX]",    "icon": "PANZA.png" },
+        { "clan": "[PANZK]",    "icon": "PANZA.png" },
+        { "clan": "[PANZY]",    "icon": "PANZA.png" },
+        { "clan": "[KING]",     "icon": "KING.png" },
+        { "clan": "[KING3]",    "icon": "KING.png" },
+        { "clan": "[DEMI]",     "icon": "DEMI.png" },
+        { "clan": "[DEMII]",    "icon": "DEMI.png" },
+        { "clan": "[13TH]",     "icon": "13TH.png" },
+        { "clan": "[13TH2]",    "icon": "13TH.png" },
+        { "clan": "[RS]",       "icon": "RS.png" },
+        { "clan": "[RSRDD]",    "icon": "RSRDD.png" },
+        { "clan": "[RSRC]",     "icon": "RSRDD.png" },
+        { "clan": "[CB]",       "icon": "CB.png" },
+        { "clan": "[CB2]",      "icon": "CB.png" },
+        { "clan": "[CB3]",      "icon": "CB.png" },
+        { "clan": "[CB4]",      "icon": "CB.png" },
+        { "clan": "[WWPD]",     "icon": "WWPD.png" },
+        { "clan": "[WWPD2]",    "icon": "WWPD.png" },
+        { "clan": "[3AC]",      "icon": "3AC.png" },
+        { "clan": "[3AC-S]",    "icon": "3AC.png" },
+        { "clan": "[TSF]",      "icon": "TSF.png" },
+        { "clan": "[TSF-2]",    "icon": "TSF.png" },
+        { "clan": "[MFH]",      "icon": "MFH.png" },
+        { "clan": "[MFH-B]",    "icon": "MFH.png" },
+        { "clan": "[ACA]",      "icon": "ACA.png" },
+        { "clan": "[ACA-T]",    "icon": "ACA.png" },
+        { "clan": "[1STCV]",    "icon": "1STCV.png" },
+        { "clan": "[1STCA]",    "icon": "1STCV.png" },
+        { "clan": "[1STCG]",    "icon": "1STCV.png" },
+        { "clan": "[1STCD]",    "icon": "1STCV.png" },
+        { "clan": "[5CAD]",     "icon": "5CAD.png" },
+        { "clan": "[5CAD2]",    "icon": "5CAD.png" },
+        { "clan": "[5CAD3]",    "icon": "5CAD.png" },
+        { "clan": "[5CAD4]",    "icon": "5CAD.png" },
+        { "clan": "[5CAD5]",    "icon": "5CAD.png" },
+        { "clan": "[EGO]",      "icon": "EGO.png" },
+        { "clan": "[EGO-A]",    "icon": "EGO.png" },
+        { "clan": "[PVP]",      "icon": "PVP.png" },
+        { "clan": "[PVP-2]",    "icon": "PVP.png" },
+        { "clan": "[PVP-3]",    "icon": "PVP.png" },
+        { "clan": "[PVP-4]",    "icon": "PVP.png" },
+        { "clan": "[PVP-5]",    "icon": "PVP.png" },
+        { "clan": "[PVP-6]",    "icon": "PVP.png" },
+        { "clan": "[PVP-7]",    "icon": "PVP.png" },
+        { "clan": "[_BAD_]",    "icon": "_BAD_.png" },
+        { "clan": "[1STCV]",    "icon": "1STCAV.png" },
+        { "clan": "[5AD]",      "icon": "5AD.png" },
+        { "clan": "[5IB]",      "icon": "5IB.png" },
+        { "clan": "[13TH]",     "icon": "13TH.png" },
+        { "clan": "[7THAD]",    "icon": "7THAD.png" },
+        { "clan": "[ADD]",      "icon": "ADD.png" },
+        { "clan": "[ANGER]",    "icon": "ANGER.png" },
+        { "clan": "[ANVIL]",    "icon": "ANVIL.png" },
+        { "clan": "[BASIN]",    "icon": "BASIN.png" },
+        { "clan": "[-BC-]",     "icon": "-BC-.png" },
+        { "clan": "[-BC-V]",    "icon": "-BC-.png" },
+        { "clan": "[BD]",       "icon": "BD.png" },
+        { "clan": "[BOSS]",     "icon": "BOSS.png" },
+        { "clan": "[BSS]",      "icon": "BSS.png" },
+        { "clan": "[CB]",       "icon": "CB.png" },
+        { "clan": "[CIA]",      "icon": "CIA.png" },
+        { "clan": "[-CL-]",     "icon": "CL-.png" },
+        { "clan": "[COD]",      "icon": "COD.png" },
+        { "clan": "[DOKSA]",    "icon": "DOKSA.png" },
+        { "clan": "[D-O-S]",    "icon": "D-O-S.png" },
+        { "clan": "[DRB]",      "icon": "DRB.png" },
+        { "clan": "[EARCT]",    "icon": "EARCT.png" },
+        { "clan": "[EGO]",      "icon": "EGO.png" },
+        { "clan": "[3E]",       "icon": "3E.png" },
+        { "clan": "[FORGE]",    "icon": "FORGE.png" },
+        { "clan": "[-G-]",      "icon": "-G-.png" },
+        { "clan": "[HAVOK]",    "icon": "HAVOK.png" },
+        { "clan": "[HAV0K]",    "icon": "HAV0K.png" },
+        { "clan": "[HBS]",      "icon": "HBS.png" },
+        { "clan": "[IL]",       "icon": "IL.png" },
+        { "clan": "[INCA]",     "icon": "INCA.png" },
+        { "clan": "[IOP]",      "icon": "IOP.png" },
+        { "clan": "[IR]",       "icon": "IR.png" },
+        { "clan": "[JDAM]",     "icon": "JDAM.png" },
+        { "clan": "[KING]",     "icon": "KING.png" },
+        { "clan": "[KISS]",     "icon": "KISS.png" },
+        { "clan": "[L2R]",      "icon": "L2R.png" },
+        { "clan": "[MARV]",     "icon": "MARV.png" },
+        { "clan": "[MFH]",      "icon": "MFH.png" },
+        { "clan": "[MOWR]",     "icon": "MOWR.png" },
+        { "clan": "[NDP]",      "icon": "NDP.png" },
+        { "clan": "[NOD]",      "icon": "NOD.png" },
+        { "clan": "[NUKE]",     "icon": "NUKE.png" },
+        { "clan": "[NUKED]",    "icon": "NUKED.png" },
+        { "clan": "[PBKAC]",    "icon": "PBKAC.png" },
+        { "clan": "[QIN]",      "icon": "QIN.png" },
+        { "clan": "[REL-2]",    "icon": "REL-2.png" },
+        { "clan": "[REL-A]",    "icon": "REL-A.png" },
+        { "clan": "[RELIC]",    "icon": "RELIC.png" },
+        { "clan": "[RIVEN]",    "icon": "RIVEN.png" },
+        { "clan": "[RMAD]",     "icon": "RMAD.png" },
+        { "clan": "[RNT]",      "icon": "RNT.png" },
+        { "clan": "[RNTP]",     "icon": "RNTP.png" },
+        { "clan": "[ROTA]",     "icon": "ROTA.png" },
+        { "clan": "[ROTA2]",    "icon": "ROTA2.png" },
+        { "clan": "[ROTA3]",    "icon": "ROTA3.png" },
+        { "clan": "[RPM]",      "icon": "RPM.png" },
+        { "clan": "[RS]",       "icon": "RS.png" },
+        { "clan": "[RSRDD]",    "icon": "RSRDD.png" },
+        { "clan": "[RUS]",      "icon": "RUS.png" },
+        { "clan": "[RUSS]",     "icon": "RUSS.png" },
+        { "clan": "[RUS_2]",    "icon": "RUS_2.png" },
+        { "clan": "[RXR]",      "icon": "RXR.png" },
+        { "clan": "[SDP]",      "icon": "SDP.png" },
+        { "clan": "[SG]",       "icon": "SG.png" },
+        { "clan": "[SGLE]",     "icon": "SGLE.png" },
+        { "clan": "[SIEGE]",    "icon": "SIEGE.png" },
+        { "clan": "[SLAP]",     "icon": "SLAP.png" },
+        { "clan": "[SMO]",      "icon": "SMO.png" },
+        { "clan": "[SNS-X]",    "icon": "SNS-X.png" },
+        { "clan": "[SNS]",      "icon": "SNS.png" },
+        { "clan": "[TBW]",      "icon": "TBW.png" },
+        { "clan": "[TBZ]",      "icon": "TBZ.png" },
+        { "clan": "[TSF]",      "icon": "TSF.png" },
+        { "clan": "[TSP]",      "icon": "TSP.png" },
+        { "clan": "[UFTS]",     "icon": "UFTS.png" },
+        { "clan": "[UN]",       "icon": "UN.png" },
+        { "clan": "[USBP]",     "icon": "USBP.png" },
+        { "clan": "[VPG-R]",    "icon": "VPG-R.png" },
+        { "clan": "[VPG]",      "icon": "VPG.png" },
+        { "clan": "[W-A-R]",    "icon": "W-A-R.png" },
+        { "clan": "[WOLF]",     "icon": "WOLF.png" },
+        { "clan": "[WWIII]",    "icon": "WWIII.png" },
+        { "clan": "[WWPD]",     "icon": "WWPD.png" },
+        { "clan": "[ML]",       "icon": "ML.png" },
         { "clan": "[WGA]",      "icon": "WG.png" }
       ]
     },
