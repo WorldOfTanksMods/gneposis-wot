@@ -1,0 +1,1 @@
+C:\Python32\python.exe .\src\gpwot.py

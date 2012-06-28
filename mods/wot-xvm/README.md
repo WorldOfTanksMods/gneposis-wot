@@ -64,15 +64,15 @@ INSTALLATION
 
 Contents
 --------
-    wot-xvm-proxy.exe : the little softwer which manages game data flow
-    wot-xvm-proxy.exe.config : it's config file; it needs to be updated regularly
     xvm-doc\* :  documentations
     res_mods\<game version>\gui\flash\* : the xvm-modified game files
-    res_mods\<game version>\gui\flash\config\* : sample configs
+    configs\* : sample configs
                                                             
 Tools Used
-----------                     
-3b37ff884ee2a786d22360f1d6b9edec9d39bc5e *xvm-full-2.4.1.zip
+----------
+jEdit 4.5 : <http://www.jedit.org/>
+a1b94a526a8733ccba21bf6f162e738bd39411ab *xvm-lite-2.4.1.zip
+ab314994c5ca2fc953cf51fbc8523a8e2398b1a3 *xvm-full-2.4.2.test1.zip
 
 License
 -------
