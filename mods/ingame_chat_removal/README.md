@@ -6,7 +6,7 @@ ABOUT
 
 Disables in-game chat made by Nepumax.
 
-Check: <https://github.com/gneposis/gneposis-wot/raw/master/mods/nepumax_ingame_chat_removal/shot1.jpg>
+Check: <https://github.com/gneposis/gneposis-wot/raw/master/mods/ingame_chat_removal/shot1.jpg>
 
 
 INSTALLATION

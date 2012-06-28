@@ -6,7 +6,7 @@ ABOUT
 
 This mod allows you to zoom out more. Made by unknown modder.
 
-Check: <https://github.com/gneposis/gneposis-wot/raw/master/mods/unknown_maximum_zoom_out/shot1.jpg>
+Check: <https://github.com/gneposis/gneposis-wot/raw/master/mods/maximum_zoom_out/shot1.jpg>
 
 INSTALLATION
 ------------

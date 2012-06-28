@@ -32,9 +32,22 @@ The package contains the following mods (all of them are 0.7.4 compatible):
 * RETICLE COUNTDOWN VANILLA : The mod uses the default reticle that comes with tanks and is updated where needed. It has a reload timer and a health feature. (by Puddy70s)
 * RETICLE STANDARD GREEN : Same as RETICLE COUNTDOWN VANILLA. With green text. (by STL1te)
 * RETICLE STANDARD WHITE : Same as RETICLE STANDARD GREEN, but with white text. (by STL1te)
-* WOT-XVM : This mod allows you to customize your view in World of Tanks. Plus it allows you to get ingame statistics.
+* WOT-XVM : This mod allows you to customize your view and markers in World of Tanks. By default I include the Lite version only. If you want to use the full one, you should replace the files manually. However, you can still put clan icons into full configs (even into your customized one) 
 
 You can find link for screenshots in the README's of the the Packages in 'mods/(modpackname)' folder.
+
+I will include more mods and more customisation in the future.
+
+Attention!
+----------
+This program is in alpha state right now, so bugs may come. I tested it with RU, EU and NA clients, and it worked for all of them.
+
+At this point it uses an eval function to parse CW region data provided by <http://wot-stats.appspot.com/>. In future release I will code a workaround for this.
+
+It is very unlikely for someone to hack them and put a harmful code in them but if you are paranoid you can check the region data before running this program:
+* RU: <http://wot-stats.appspot.com/region-data/129>
+* EU: <http://wot-stats.appspot.com/region-data/257>
+* NA: <http://wot-stats.appspot.com/region-data/385>
 
 License
 -------
