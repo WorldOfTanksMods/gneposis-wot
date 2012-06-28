@@ -18,7 +18,7 @@ Usage
 3. Start 'runme.bat'
 4. Copy the contents of 'your_res_mods' to your World of Tanks' 'res_mods' folder
 
-Check: Check: <https://github.com/gneposis/gneposis-wot/raw/master/shot2.jpg>
+Check: Check: <https://github.com/gneposis/gneposis-wot/raw/master/shot2.JPG>
 
 Extra feature: If you want cool World of Tanks related links, put a shortcut to the links folder onto your Desktop.
 
